@@ -2,11 +2,12 @@
 /**
  * main -entry point
  *
- * DESCRIPTION:A C program that prints with pritf */
-int main(void){
-
-
+ * DESCRIPTION:A C program that prints with pritf
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
     printf("with proper grammar, but the outcome is a piece of art");
-
-return (0);
+    return (0);
 }
