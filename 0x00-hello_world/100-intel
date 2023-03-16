@@ -1,3 +1,2 @@
 #!/bin/bash
-CFILE="filename.c"
 gcc -S -masm=intel $CFILE
