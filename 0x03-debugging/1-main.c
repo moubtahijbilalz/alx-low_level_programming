@@ -9,15 +9,14 @@ int main(void)
 {
 	int i;
 
-	printf("Infiniteprint loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 
 	i = 0;
 
-	while (I < 10)
-	{
-		putchar(i + '0');
-		i++;
-	}
+	/*while (i < 10) */
+	/*{ */
+	/*      putchar(i);*/
+	/*} */
 
 	printf("Infinite loop avoided! \\o/\n");
 
